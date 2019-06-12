@@ -7,7 +7,7 @@ let rec fibo = function
  | 0 -> 0
  | 1 | 2 -> 1
  | n -> fibo(n-1)+fibo(n-2) 
-printfn "%d" (fibo 0) 
+ 
  
 
 //7.1.2. Напишите рекурсивную функцию sum: int -> int, где sum(n) вычисляет сумму первых n чисел ряда 1 + 2 + 3 + ... + n-1 + n
